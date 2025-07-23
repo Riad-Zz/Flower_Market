@@ -67,8 +67,9 @@
     .banner-image{
         width: 100%;
     }
-    .flower-card-container{
+    .flower-card-container,.Plant-lover-section{
         width: 95%;
         margin: 0 auto;
     }
+    
 }
