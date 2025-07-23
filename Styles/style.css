@@ -44,6 +44,9 @@
     margin: 0 auto;
 }
 
+/*Discount Card Section Style*/
+
+
 /* Mobile Responsiveness  */
 @media screen and (max-width:576px) {
     .nav-list a{
@@ -67,7 +70,7 @@
     .banner-image{
         width: 100%;
     }
-    .flower-card-container,.Plant-lover-section{
+    .flower-card-container,.Plant-lover-section,.Latest-deal-section{
         width: 95%;
         margin: 0 auto;
     }
