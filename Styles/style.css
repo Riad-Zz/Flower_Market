@@ -56,7 +56,25 @@
     color: rgba(107, 114, 128, 1);
  }
 .mail-section{
+    background-image: url(../Assets/news-letter-bg.png);
+    background-size: cover;
     margin-bottom: 50px;
+}
+.dis-card{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../Assets/deal-bloom.png);
+    background-size: cover;
+}
+.big-dis-card{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../Assets/deal-zabo.png);
+    background-size: cover;
+}
+.dis-card-1{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../Assets/deal-ana.png);
+    background-size: cover;
+}
+.dis-card-2{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../Assets/deal-zabo.png);
+    background-size: cover;
 }
 /*Discount Card Section Style*/
 
