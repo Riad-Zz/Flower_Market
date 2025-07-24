@@ -35,6 +35,7 @@
     color: rgba(255, 255, 255, 1);
     border: none;
     transition: transform 0.5s ease;
+    cursor: pointer;
 }
 .btn:hover{
     transform: scale(1.02);
@@ -76,8 +77,19 @@
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../Assets/deal-zabo.png);
     background-size: cover;
 }
-/*Discount Card Section Style*/
 
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.spin{
+    animation: spin 10s linear infinite;
+}
 
 /* Mobile Responsiveness  */
 @media screen and (max-width:576px) {

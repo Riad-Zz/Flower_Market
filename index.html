@@ -21,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./Assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="Styles/style.css" />
   </head>
   <body class="bg-[#F5F8FF]">
@@ -95,7 +96,7 @@
               Lily Blossom
             </h5>
             <p class="price font-bold text-[1.375rem] mb-[30px]">20 USD</p>
-            <button class="btn w-[100%]">ADD TO CART</button>
+            <button onclick="alert_message()" class="btn w-[100%]">ADD TO CART</button>
           </div>
           <div class="flower-card text-center">
             <img
@@ -107,7 +108,7 @@
               Lily Blossom
             </h5>
             <p class="price font-bold text-[1.375rem] mb-[30px]">20 USD</p>
-            <button class="btn w-[100%]">ADD TO CART</button>
+            <button onclick="alert_message()" class="btn w-[100%]">ADD TO CART</button>
           </div>
           <div class="flower-card text-center">
             <img
@@ -119,7 +120,7 @@
               Lily Blossom
             </h5>
             <p class="price font-bold text-[1.375rem] mb-[30px]">20 USD</p>
-            <button class="btn w-[100%]">ADD TO CART</button>
+            <button onclick="alert_message()" class="btn w-[100%]">ADD TO CART</button>
           </div>
           <div class="flower-card text-center">
             <img
@@ -131,7 +132,7 @@
               Lily Blossom
             </h5>
             <p class="price font-bold text-[1.375rem] mb-[30px]">20 USD</p>
-            <button class="btn w-[100%]">ADD TO CART</button>
+            <button onclick="alert_message()" class="btn w-[100%]">ADD TO CART</button>
           </div>
           <div class="flower-card text-center">
             <img
@@ -143,7 +144,7 @@
               Lily Blossom
             </h5>
             <p class="price font-bold text-[1.375rem] mb-[30px]">20 USD</p>
-            <button class="btn w-[100%]">ADD TO CART</button>
+            <button onclick="alert_message()" class="btn w-[100%]">ADD TO CART</button>
           </div>
           <div class="flower-card text-center">
             <img
@@ -155,7 +156,7 @@
               Lily Blossom
             </h5>
             <p class="price font-bold text-[1.375rem] mb-[30px]">20 USD</p>
-            <button class="btn w-[100%]">ADD TO CART</button>
+            <button onclick="alert_message()" class="btn w-[100%]">ADD TO CART</button>
           </div>
           <div class="flower-card text-center">
             <img
@@ -167,7 +168,7 @@
               Lily Blossom
             </h5>
             <p class="price font-bold text-[1.375rem] mb-[30px]">20 USD</p>
-            <button class="btn w-[100%]">ADD TO CART</button>
+            <button onclick="alert_message()" class="btn w-[100%]">ADD TO CART</button>
           </div>
           <div class="flower-card text-center">
             <img
@@ -179,7 +180,7 @@
               Lily Blossom
             </h5>
             <p class="price font-bold text-[1.375rem] mb-[30px]">20 USD</p>
-            <button class="btn w-[100%]">ADD TO CART</button>
+            <button onclick="alert_message()" class="btn w-[100%]">ADD TO CART</button>
           </div>
         </div>
       </section>
@@ -190,7 +191,7 @@
           <img
             src="Assets/trusted-badge.png"
             alt="Trusted badge image"
-            class="h-[286px] w-[286px] hidden md:block absolute top-[-130px] left-[350px]"
+            class="h-[286px] w-[286px] hidden md:block absolute top-[-130px] left-[350px] spin"
           />
         </div>
         <div class="plant-lover-description max-w-[540px]">
@@ -301,5 +302,10 @@
 </div>
 
     </footer>
+    <script>
+      function alert_message(){
+        alert("Flower Added to Cart")
+      }
+    </script>
   </body>
 </html>
